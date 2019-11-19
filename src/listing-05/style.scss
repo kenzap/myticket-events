@@ -1,0 +1,469 @@
+.kenzap .kenzap-hall-layout button,
+.kenzap .kenzap-hall-layout input[type="button"], 
+.kenzap .kenzap-hall-layout input[type="reset"], 
+.kenzap .kenzap-hall-layout input[type="submit"],
+.kenzap .kenzap-hall-layout img,
+.kenzap .kenzap-hall-layout ul,
+.kenzap .kenzap-hall-layout li,
+.kenzap .kenzap-hall-layout p,
+.kenzap .kenzap-hall-layout a{
+	padding: 0;
+	margin: 0;
+	box-shadow: none;
+	border: none;
+	text-decoration: none;
+	list-style:none
+}
+
+.kenzap .kenzap-hall-layout div{
+	box-sizing: border-box;
+}
+
+.kenzap .kenzap-hall-layout .clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.kenzap .kenzap-hall-layout .kenzap-container {
+    max-width: 1170px;
+	margin:0 auto;
+	padding:0 30px;
+	display:block;
+}
+
+.kenzap .kenzap-hall-layout .kenzap-container:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.kenzap .kenzap-hall-layout .kenzap-row{
+	margin:0 -15px 0 -20px;
+	overflow:hidden
+}
+
+.kenzap .kenzap-hall-layout .kenzap-col-9{
+	width:75%;
+	float:left;
+	padding:0 15px;
+}
+
+.kenzap .kenzap-hall-layout .kenzap-col-4{
+	width:33.333333%;
+	float:left;
+	padding:0 15px;
+}
+
+.kenzap .kenzap-hall-layout .kenzap-col-3{
+	width:25%;
+	float:left;
+	padding:0 15px;
+}
+
+.kenzap .kenzap-hall-layout .kenzap-col-2{
+	width:16.66666667%;
+	float:left;
+	padding:0 15px;
+}
+
+.kenzap .kenzap-hall-layout .kp_wrapper{
+	padding: 45px 0 10px;
+	overflow-x: scroll;
+}
+
+.kenzap .kenzap-hall-layout .kp_image{
+	position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+	display: none;
+}
+
+.kenzap .kenzap-hall-layout .kp_svg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	display: inline-block;
+}
+
+.kenzap .kenzap-hall-layout .kp_svg polygon{
+	stroke-width: 3px;
+	fill: var(--avc2, rgba(255,255,255,0.3));
+	cursor: pointer;
+}
+
+.kenzap .kenzap-hall-layout .kp_svg polygon:hover,
+.kenzap .kenzap-hall-layout .kp_svg polygon.selected{
+	fill: var(--sec2, rgba(50,200,50,0.5));
+}
+
+.kenzap .kenzap-hall-layout .kp_svg polygon.booked{
+	fill: var(--soc2, #AFC3E5);
+}
+
+.kenzap #seat_mapping{
+	width: 100%;
+    min-height: 100%;
+    background-color: #fff;
+    opacity: 0.97;
+    position: fixed;
+	z-index: 100000;
+	top: 0;
+	bottom: 0;
+    display: none;
+}
+
+.kenzap #svg_mapping_cont{
+	width: 90%;
+	height: 80%;
+	padding: 0px;
+	margin: auto;
+	margin-top: 70px;
+    overflow: scroll;
+}
+
+.kenzap .kp-arrows #svg_mapping_cont{
+	width: 80%;
+}
+
+.kenzap #svg_mapping{
+	display: block;
+	margin: auto;
+}
+
+.kenzap #top_toolbar{
+    z-index: 19;
+    height: 70px;
+    background-color: #fff;
+	position: absolute;
+	width:100%;
+}
+
+.kenzap #seat_mapping_close{
+	color: red;
+	font-weight: bold;
+	font-size: 48px;
+	margin: 18px;
+	position: absolute;
+	cursor: pointer;
+	line-height: 1;
+}
+
+.kenzap #svg_mapping polygon {
+    stroke-width: 2px;
+    fill: #eee;
+    stroke: #666;
+}
+
+.kenzap #svg_mapping text,
+.kenzap #svg_mapping circle{
+	cursor: pointer;
+	fill: var(--avc, #AFC3E5);
+}
+
+.kenzap #svg_mapping text.reserved,
+.kenzap #svg_mapping circle.reserved{
+	fill: var(--sec, rgba(50,200,50,0.5));
+	cursor: default;
+}
+
+.kenzap #svg_mapping text.booked,
+.kenzap #svg_mapping circle.booked{
+	fill: var(--soc, #AFC3E5);
+}
+
+.kenzap .seat_head{
+	position: absolute;
+    margin: 30px 0 0 80px;
+    font-weight: bold;
+    height: 40px;
+	line-height: 30px;
+	width: 100%;
+}
+
+.kenzap .selected_seats{
+	font-weight:500;
+	display:inline-block;
+	margin: 0 0 0 5px;
+    overflow: scroll;
+    cursor: pointer;
+	width: 60%;
+}
+
+.kenzap .selected_seats span{
+	margin-left: 15px;
+	font-size: 16px;
+}
+
+.kenzap .kenzap-hall-layout .stage-name{
+	margin: 0 0 10px;
+    text-align: center;
+}
+
+.kenzap .kenzap-hall-layout a.kp-btn-reserve,
+.kenzap .kenzap-hall-layout .stage-name h3{
+    margin: 0 0 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 16px;
+    color: var(--mc, #ff6600);
+    border: 1px solid var(--mc, #ff6600);
+}
+
+.kenzap .kenzap-hall-layout .stage-name p{
+	text-align: center;
+    color: #6f6f6f;
+    font-size: 14px;
+}
+
+.kenzap .kenzap-hall-layout .seat-label{
+	margin: 0 0 45px;
+}
+
+.kenzap .kenzap-hall-layout .seat-label ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.kenzap .kenzap-hall-layout .seat-label ul li {
+    display: inline-block;
+	margin: 0 20px;
+	font-size: 16px;
+}
+
+.kenzap .kenzap-hall-layout .seat-label ul li:before{
+	content: " ";
+	border-radius: 50%;
+	width: 24px;
+	height: 24px; 
+	border:1px solid #ccc;
+	vertical-align: middle;
+	margin-top:-2px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.kenzap .kenzap-hall-layout .seat-label ul li:nth-child(1):before{
+	background: var(--avc, #F3F3F3);
+}
+
+.kenzap .kenzap-hall-layout .seat-label ul li:nth-child(2):before{
+	background: var(--soc, #AFC3E5);
+}
+
+.kenzap .kenzap-hall-layout .seat-label ul li:nth-child(3):before{
+	background:var(--sec, #B1E2A5);
+}
+
+.kenzap .kenzap-hall-layout .seat-info{
+    color: #949494;
+    font-size: 14px;
+	width: 80%;
+	max-width: 600px;
+    margin: 0 auto;
+    padding: 0 0 0 57px;
+    background: url(images/info.png) no-repeat left center;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price{
+	margin: 50px auto 0 auto; 
+}
+
+.kenzap .kenzap-hall-layout .ticket-price table, 
+.kenzap .kenzap-hall-layout .ticket-price th, 
+.kenzap .kenzap-hall-layout .ticket-price td{
+	border:none;
+	text-align: left;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price table tr td{
+	color:#6f6f6f;
+	font-size:15px;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price table tr td span{
+	display:block;
+	color:#b3b3b3;
+	font-size:14px;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price .kp-table > thead > tr > th,
+.kenzap .kenzap-hall-layout .ticket-price .kp-table > tbody > tr > td{
+	padding:25px 20px;
+	box-sizing: border-box;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price .kp-table {
+	margin:0;
+}
+
+.kenzap .kenzap-hall-layout table tr td.kp-rem-seat{
+	color:red;
+	font-size: 26px;
+	padding: 4px;
+	font-weight: bold;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price .kp-table > tbody > tr{
+	position:relative;
+	border-top:1px solid #eee;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price .kp-table > tbody > tr.selected:before{
+	content: "";
+	width:10px;
+	background:var(--mc, #ff6600);
+	position:absolute;
+	left:0;
+	bottom:0;
+	top:0;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price .kp-table > tbody{
+	display:block;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price .kp-table > .kp-ticket-row > tr.select-seat:hover td,
+.kenzap .kenzap-hall-layout .ticket-price .kp-table > .kp-ticket-row > tr.select-seat:hover{
+	cursor:pointer;
+	background:#fafafb;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price .kp-table > thead > tr > th{
+	border:none;
+	background:#fafafb;
+	color:#6f6f70;
+	font-size:15px;
+	font-weight:normal;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price .kp-table{
+	width:100%;
+	border-spacing: 10px;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price tr,
+.kenzap .kenzap-hall-layout .ticket-price td{
+	display:block;
+	overflow:hidden;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price th,
+.kenzap .kenzap-hall-layout .ticket-price td{
+	float:left;
+	width:45%;
+	padding:0;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price th:nth-child(2),
+.kenzap .kenzap-hall-layout .ticket-price td:nth-child(2){
+	float:left;
+	width:20%;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price th:nth-child(3),
+.kenzap .kenzap-hall-layout .ticket-price td:nth-child(3){
+	float:left;
+	width:25%;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price th:nth-child(4),
+.kenzap .kenzap-hall-layout .ticket-price td:nth-child(4){
+	float:left;
+	width:10%;
+}
+
+.kenzap .kenzap-hall-layout a.kp-btn-reserve{
+	display: none;
+	background:#fff;
+	color:var(--mc, #ff6600);
+	border: 1px solid var(--mc, #ff6600);
+	text-decoration: none;
+	border-radius: 5px;
+	float: right;
+	margin-top: 10px;
+}
+
+.kenzap .kenzap-hall-layout a.kp-btn-reserve:hover{
+	color:#fff;
+	background:var(--mc, #ff6600);
+	cursor: pointer;
+}
+
+.kenzap #seat_mapping button.kp-prev {
+    width: 22px;
+    height: 46px;
+    background: url(images/calendar-events-arrow-left.svg) no-repeat center center;
+    background-size: auto 49px;
+    border: none;
+    position: absolute;
+    left: 14px;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.kenzap #seat_mapping button.kp-next {
+    width: 22px;
+    height: 46px;
+    background: url(images/calendar-events-arrow-right.svg) no-repeat center center;
+    background-size: auto 49px;
+    border: none;
+    position: absolute;
+    right: 14px;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.kenzap .kenzap-hall-layout .ticket-price .m-row{
+	display: none;
+}
+
+@media screen and (max-width: 37em) {
+	/* width 480px */
+
+	.kenzap #svg_mapping_cont{
+		width: 96%;
+	}
+
+	.kenzap .kp-arrows #svg_mapping_cont{
+		width: 70%;
+	}
+
+	.kenzap .kenzap-hall-layout .ticket-price th:nth-child(3),
+	.kenzap .kenzap-hall-layout .ticket-price td:nth-child(3),
+	.kenzap .kenzap-hall-layout .ticket-price th:nth-child(2),
+	.kenzap .kenzap-hall-layout .ticket-price td:nth-child(2){
+		display: none;
+	}
+
+	.kenzap .kenzap-hall-layout .ticket-price th:nth-child(1),
+	.kenzap .kenzap-hall-layout .ticket-price td:nth-child(1){
+		width: 70%;
+	}
+
+	.kenzap .kenzap-hall-layout .ticket-price th:nth-child(4),
+	.kenzap .kenzap-hall-layout .ticket-price td:nth-child(4){
+		width: 30%;
+		text-align: right;
+	}
+
+	.kenzap .kenzap-hall-layout .ticket-price .m-row{
+		display: block;
+	}
+
+}

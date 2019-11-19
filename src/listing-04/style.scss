@@ -1,0 +1,749 @@
+.kenzap .kpfes button,
+.kenzap .kpfes input[type="button"], 
+.kenzap .kpfes input[type="reset"], 
+.kenzap .kpfes input[type="submit"],
+.kenzap .kpfes img,
+.kenzap .kpfes ul,
+.kenzap .kpfes li,
+.kenzap .kpfes p,
+.kenzap .kpfes a{
+	padding: 0;
+	margin: 0;
+	box-shadow: none;
+	border: none;
+	text-decoration: none;
+	list-style:none
+}
+
+.kenzap .kpfes div{
+	box-sizing: border-box;
+}
+
+.kenzap .kpfes .clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.kenzap .kpfes .kenzap-container {
+    max-width: 1170px;
+	margin:0 auto;
+	padding:0 var(--paddings2, 0);
+	display:block;
+	overflow-x: hidden;
+}
+
+.kenzap .kpfes.autoPadding {
+	padding: calc(30px + (var(--paddings) - 30) * ((100vw - 300px) / (1600 - 300))) 0!important;
+}
+
+.kenzap .kpfes .kenzap-container:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.kenzap .kpfes .kenzap-row{
+	margin:0 -15px;
+	overflow:hidden
+}
+
+.kenzap .kpfes .kenzap-col-9{
+	width:75%;
+	float:left;
+	padding:0 15px;
+}
+
+.kenzap .kpfes .kenzap-col-4{
+	width:33.333333%;
+	float:left;
+	padding:0 15px;
+}
+
+.kenzap .kpfes .kenzap-col-3{
+	width:25%;
+	float:left;
+	padding:0 15px;
+}
+
+.kenzap .kpfes .kenzap-col-2{
+	width:16.66666667%;
+	float:left;
+	padding:0 15px;
+}
+
+.kenzap .kpfes .refine-search{
+	padding:35px 0;
+	background:#fff;
+}
+
+.kenzap .kpfes .refine-search .keyword{
+	position:relative;
+}
+
+.kenzap .kpfes .refine-search label{
+	font-size:17px;
+	color:#4e4e4e;
+	font-weight:700;
+	margin:0 0 20px;
+	text-transform:uppercase;
+	display:block;
+}
+
+.kenzap .kpfes .refine-search input[type="text"]{
+	border:2px solid #dedede;
+	padding:0 27px;
+	height:55px;
+	line-height:51px;
+	height:auto;
+	width:100%;
+	color:#b3b3b3;
+	font-size:15px;
+	font-weight:600;
+	border-radius:5px;
+}
+
+.kenzap .kpfes .refine-search input[type="email"]::-webkit-input-placeholder{
+	color: #b3b3b3;
+}
+.kenzap .kpfes .refine-search input[type="email"]::-moz-placeholder{
+	color: #b3b3b3;	
+}
+
+.kenzap .kpfes .refine-search input[type="email"]:-ms-input-placeholder{
+	color: #b3b3b3;	
+}
+
+.kenzap .kpfes .refine-search input[type="email"]:-moz-placeholder{ 
+	color: #b3b3b3;
+}
+
+.kenzap .kpfes .refine-search .keyword span{
+	position:absolute;
+	right:35px;
+	bottom:14px;
+	cursor:pointer;
+}
+
+
+.kenzap .kpfes .refine-search select::-ms-expand {
+    display: none;
+}
+
+.kenzap .kpfes .refine-search select{
+	font-weight:600;
+	display:block;
+	-moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+	border:2px solid #dedede;
+	height:55px;
+	line-height:51px;
+	height:auto;
+	width:100%;
+	color:#b3b3b3;
+	font-size:15px;
+	box-shadow:none;
+	background: #fff url(images/select-arrow.svg) no-repeat 93% center;
+	background-size:14px 7px;
+	padding:0 40px 0 27px;
+	height:55px;
+	line-height:51px;
+	border-radius:5px;
+	cursor:pointer
+}
+
+.kenzap .kpfes .refine-search select:focus{
+	outline:none
+}
+
+.kenzap .kpfes .refine-search select option{
+	box-shadow:none;
+	border:none;
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight:600;
+	line-height: 1.42857143;
+	color: #333;
+	white-space: nowrap;
+}
+
+.kenzap .kpfes .refine-search input[type="submit"]{
+	width:100%;
+	border:2px solid var(--mc, #ff6600);
+	height:55px;
+	text-align:center;
+	color:var(--mc, #ff6600);
+	font-size:17px;
+	text-transform:uppercase;
+	font-weight:500;
+	background:#fff;
+	border-radius:5px;
+	cursor:pointer
+}
+
+.kenzap .kpfes .refine-search input[type="submit"]:hover{
+	background:var(--mc, #ff6600);
+	color:#fff;
+}
+
+
+.kenzap .kpfes .owl-carousel .owl-item{
+	padding:4px 1px 8px;
+}
+
+.kenzap .kpfes{
+	background:#fff;
+}
+
+.kenzap .kpfes .event-tabs{
+	border:none;
+}
+
+
+.kenzap .kpfes .event-tabs li:first-child a{
+	border-left:1px solid #f8f8f8;
+}
+
+.kenzap .kpfes .event-tabs li a{
+	display:block;
+	padding: 30px 0;
+	width:100%;
+	font-size:40px;
+	line-height:inherit;
+	text-align:center;
+	display:inline-block;
+	color:#b3b3b3;
+	border:none;
+	background:#fdfdfd;
+	border-top:1px solid #f8f8f8;
+	border-right:1px solid #f8f8f8;
+	border-bottom:1px solid #f8f8f8;
+	border-radius:0;
+	margin:0;
+	text-transform:uppercase;
+	font-weight:200;
+	position:relative;
+	z-index:1;
+	transition:all .3s;
+	text-decoration: none;
+ }
+ 
+.kenzap .kpfes .schedule-content .event-tabs li a strong{
+	display:block;
+	font-size:14px;
+	margin:0 0 20px;
+	font-weight:900;
+	color:#b3b3b3;
+}
+ 
+.kenzap .kpfes .schedule-content .event-tabs li a span{
+	display:block;
+	font-size:16px;
+	margin:25px 0 0;
+	font-weight:400;
+	color:#b3b3b3;
+}
+
+.kenzap .kpfes .schedule-content .event-tabs li:hover a strong,
+.kenzap .kpfes .schedule-content .event-tabs li:hover a span{
+	color:#373737
+ }
+
+.kenzap .kpfes .schedule-content .event-tabs li.active a,
+.kenzap .kpfes .schedule-content .event-tabs li:hover a{
+	color:#373737;
+	background:#fff;
+	-webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+	z-index: 999
+}
+
+.kenzap .kpfes .schedule-content .event-tabs li.active a span,
+.kenzap .kpfes .schedule-content .event-tabs li.active a strong{
+	color:#373737
+}
+
+
+.kenzap .kpfes .event-tabs button.owl-prev{
+	width:22px;
+	height:29px;
+	background:url(images/calendar-events-arrow-left.svg) no-repeat center center;
+	background-size:auto 29px;
+	border:none;
+	position:absolute;
+	//left:-30px;
+	left:0px;
+	bottom:0;
+	top:0;
+	margin:auto;
+}
+
+.kenzap .kpfes .event-tabs button.owl-next{
+	width:22px;
+	height:29px;
+	background:url(images/calendar-events-arrow-right.svg) no-repeat center center;
+	background-size:auto 29px;
+	border:none;
+	position:absolute;
+	//right:-30px;
+	right:0px;
+	bottom:0;
+	top:0;
+	margin:auto;
+}
+
+.kenzap .kpfes .event-tabs .owl-next span,
+.kenzap .kpfes .event-tabs .owl-prev span{
+	display:none
+}
+
+.kenzap .kpfes .schedule-tab-content > .tab-pane,
+.kenzap .kpfes .event-tab-content > .tab-pane{
+	display:none
+}
+
+.kenzap .kpfes .schedule-content{
+	padding:10px 0;
+	// background:#f8f8f8
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content{
+	background:#fff;
+	margin:-6px 0 0 6px;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs{
+	margin:-6px -31px 0 0;
+	border-right:1px solid #f8f8f8;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs a{
+	padding:30px 50px 30px 80px;
+	background:#fff;
+	position:relative;
+	display:block;
+	text-decoration: none;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs a:before{
+	content: " ";
+	width:20px;
+	height:20px;
+	background:url(images/clock-icon.svg);
+	background-size:20px 20px;
+	display:block;
+	position:absolute;
+	top:38px;
+	left:40px;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs a:after{
+	content: " ";
+	width:6px;
+	height:10px;
+	background:url(images/arrow-icon.svg);
+	background-size:6px 10px;
+	display:block;
+	position:absolute;
+	top:45%;
+	right:40px;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs li.active a,
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs li:hover a{
+	background:#f8f8f8
+}
+
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs .schedule-time{
+	display:block;
+	font-size:24px;
+	color:#373737;
+	font-weight:300;
+	margin:0 0 10px;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs .schedule-time strong{
+	display:inline-block;
+	font-size:12px;
+	color:#373737;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs .schedule-title{
+	display:block;
+	font-size:12px;
+	color:#373737;
+	font-weight:700;
+	margin:0 0 15px;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs .schedule-ticket-info{
+	display:inline-block;
+	font-size:10px;
+	color:#fff;
+	background:var(--mc, #ff6600);
+	font-weight:700;
+	padding:5px 15px;
+	border-radius:50px;
+	text-transform:uppercase;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .tab-content{
+	border-left:1px solid #f8f8f8;
+	margin:-6px 0 0;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-contentt .tab-content .tab-pane > img{
+	width:100%;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info{
+	padding:45px;
+	overflow:hidden;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .full-event-info-header{
+	overflow:hidden;
+	margin:0 0 45px;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tab-content img{
+	width:100%;
+	display:block
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info h2{
+	font-size:22px;
+	color:#373737;
+	font-weight:600;
+	float:left;
+	margin:0 0 15px;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info .ticket-left-info{
+	font-size:10px;
+	color:#fff;
+	background:var(--mc, #ff6600);
+	padding:5px 15px;
+	float:right;
+	display:inline-block;
+	border-radius:50px;
+	text-transform:uppercase;
+	font-weight:700;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info .event-date-info{
+	font-size:15px;
+	color:#6f6f6f;
+	float:left;
+	display:inline-block;
+	font-weight:500;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info .event-venue-info{
+	font-size:15px;
+	color:#6f6f6f;
+	float:right;
+	display:inline-block;
+	margin:0 0 15px;
+	font-weight:500;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info-content{
+	overflow:hidden;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info-content p{
+	color:#373737;
+	line-height:25px;
+	font-size:13px;
+	font-weight:500;
+	margin:0 0 15px;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info-content .book-ticket{
+	font-size:16px;
+	color:#fff;
+	padding:20px 70px;
+	text-transform:uppercase;
+	border:2px solid var(--mc, #ff6600);
+	background:var(--mc, #ff6600);
+	border-radius:50px;
+	float:right;
+	margin:25px 0 0;
+	font-weight:600;
+	text-decoration: none;
+}
+
+.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info-content .book-ticket:hover{
+	background:#ffffff;
+	color:var(--mc, #ff6600);
+}
+
+.kenzap .kpfes .refine-search .kenzap-sm .kenzap-col-4,
+.kenzap .kpfes .refine-search .kenzap-sm .kenzap-col-3,
+.kenzap .kpfes .refine-search .kenzap-sm .kenzap-col-2{
+	width:50%;
+	margin:0 0 30px
+}
+
+.kenzap .kpfes .kenzap-sm .kenzap-col-3{
+	width:30%;
+}
+
+.kenzap .kpfes .kenzap-sm .kenzap-col-9{
+	width:70%
+}
+
+.kenzap .kpfes .schedule-content .kenzap-sm .event-tab-content .full-event-info-header{
+	display:flex;
+	display:-webkit-flex;
+	align-items:flex-start;
+	-webkit-align-items:flex-start;
+	flex-direction:column;
+	-webkit-flex-direction:column;
+}
+
+.kenzap .kpfes .schedule-content .kenzap-sm .event-tab-content .tab-pane .full-event-info .ticket-left-info{
+	order:1;
+	margin:0 0 10px;
+}
+
+.kenzap .kpfes .schedule-content .kenzap-sm .event-tab-content .tab-pane .full-event-info h2{
+	order:2;
+	margin:0 0 10px;
+}
+
+.kenzap .kpfes .schedule-content .kenzap-sm .event-tab-content .tab-pane .full-event-info .event-date-info{
+	order:3;
+	margin:0 0 5px;
+}
+
+.kenzap .kpfes .schedule-content .kenzap-sm .event-tab-content .tab-pane .full-event-info .event-venue-info{
+	order:4
+}
+
+.kenzap .kpfes .schedule-content .kenzap-sm .event-tab-content .tab-pane .schedule-tabs a{
+	padding:30px 50px;
+}
+
+.kenzap .kpfes .schedule-content .kenzap-sm .event-tab-content .tab-pane .schedule-tabs a::after{
+	right:20px
+}
+
+.kenzap .kpfes .schedule-content .kenzap-sm .event-tab-content .tab-pane .schedule-tabs a::before{
+	left:20px
+}
+
+.kenzap .kpfes .refine-search .kenzap-xs .kenzap-col-4,
+.kenzap .kpfes .refine-search .kenzap-xs .kenzap-col-3,
+.kenzap .kpfes .refine-search .kenzap-xs .kenzap-col-2{
+	width:100%;
+	margin:0 0 30px
+}
+
+.kenzap .kpfes .kenzap-xs .kenzap-col-3,
+.kenzap .kpfes .kenzap-xs .kenzap-col-9{
+	width:100%
+}
+
+.kenzap .kpfes .schedule-content .kenzap-xs .event-tab-content .full-event-info-header{
+	display:flex;
+	display:-webkit-flex;
+	align-items:flex-start;
+	-webkit-align-items:flex-start;
+	flex-direction:column;
+	-webkit-flex-direction:column;
+}
+
+.kenzap .kpfes .schedule-content .kenzap-xs .event-tab-content .tab-pane .full-event-info .ticket-left-info{
+	order:1;
+	margin:0 0 10px;
+}
+
+.kenzap .kpfes .schedule-content .kenzap-xs .event-tab-content .tab-pane .full-event-info h2{
+	order:2;
+	margin:0 0 10px;
+}
+
+.kenzap .kpfes .schedule-content .kenzap-xs .event-tab-content .tab-pane .full-event-info .event-date-info{
+	order:3;
+	margin:0 0 5px;
+}
+
+.kenzap .kpfes .schedule-content .kenzap-xs .event-tab-content .tab-pane .full-event-info .event-venue-info{
+	order:4
+}
+
+.kenzap .kpfes .schedule-content .kenzap-xs .event-tab-content .tab-pane .schedule-tabs a{
+	padding:30px 50px 30px 80px;
+}
+
+.kenzap .kpfes .schedule-content .kenzap-xs .event-tab-content .tab-pane .schedule-tabs a::after{
+	right:40px
+}
+
+.kenzap .kpfes .schedule-content .kenzap-xs .event-tab-content .tab-pane .schedule-tabs a::before{
+	left:40px
+}
+
+.kenzap .kpfes .refine-search .kenzap-xs input[type="submit"],
+.kenzap .kpfes .schedule-content .kenzap-xs .event-tab-content .tab-pane .schedule-tabs{
+	margin:0
+}
+
+@media only screen and (min-width: 62px) and (max-width: 75em) {
+	/* 992px and 1200px */
+	
+	.kenzap .kpfes .schedule-content{
+		padding:0 0px
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs a{
+		padding:30px 50px;
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs a::after{
+		right:20px
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs a::before{
+		left:20px
+	}
+	
+}
+
+@media screen and (max-width: 61.938em) {
+	/* width: 991px; */
+	
+	.kenzap .kpfes .refine-search .kenzap-col-4,
+	.kenzap .kpfes .refine-search .kenzap-col-3,
+	.kenzap .kpfes .refine-search .kenzap-col-2{
+		width:50%;
+		margin:0 0 30px
+	}
+	
+	.kenzap .kpfes .kenzap-col-3{
+		width:30%;
+	}
+	
+	.kenzap .kpfes .kenzap-col-9{
+		width:70%
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .full-event-info-header{
+		display:flex;
+		display:-webkit-flex;
+		align-items:flex-start;
+		-webkit-align-items:flex-start;
+		flex-direction:column;
+		-webkit-flex-direction:column;
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info .ticket-left-info{
+		order:1;
+		margin:0 0 10px;
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info h2{
+		order:2;
+		margin:0 0 10px;
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info .event-date-info{
+		order:3;
+		margin:0 0 5px;
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info .event-venue-info{
+		order:4
+	}
+	
+}
+
+
+@media screen and (max-width: 48em) {
+	/* width 768px */
+	
+	.kenzap .kpfes .refine-search .kenzap-col-4,
+	.kenzap .kpfes .refine-search .kenzap-col-3,
+	.kenzap .kpfes .refine-search .kenzap-col-2{
+		width:100%;
+		margin:0 0 30px
+	}
+	
+	.kenzap .kpfes .refine-search input[type="submit"]{
+		margin:0
+	}
+	
+	.kenzap .kpfes .kenzap-col-3,
+	.kenzap .kpfes .kenzap-col-9{
+		width:100%
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs a{
+		padding:30px 50px 30px 80px;
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs a::after{
+		right:40px
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs a::before{
+		left:40px
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .full-event-info-header{
+		display:flex;
+		display:-webkit-flex;
+		align-items:flex-start;
+		-webkit-align-items:flex-start;
+		flex-direction:column;
+		-webkit-flex-direction:column;
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info .ticket-left-info{
+		order:1;
+		margin:0 0 10px;
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info h2{
+		order:2;
+		margin:0 0 10px;
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info .event-date-info{
+		order:3;
+		margin:0 0 5px;
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info .event-venue-info{
+		order:4
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .full-event-info-content .book-ticket{
+		padding:20px 0px;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.kenzap .kpfes .schedule-content .event-tab-content .tab-pane .schedule-tabs{
+		margin:0
+	}
+}
+
+@media screen and (max-width: 30em) {
+	/* width 480px */
+	
+	
+}
+

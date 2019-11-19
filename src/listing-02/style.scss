@@ -1,0 +1,344 @@
+.kenzap .kpcae img,
+.kenzap .kpcae ul,
+.kenzap .kpcae li,
+.kenzap .kpcae p,
+.kenzap .kpcae a{
+	padding: 0;
+	margin: 0;
+	box-shadow: none;
+	border: none;
+	text-decoration: none;
+	list-style:none
+}
+
+.kenzap .kpcae div{
+	box-sizing: border-box;
+}
+
+.kenzap .kpcae .clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.kenzap .kpcae .kenzap-container {
+    max-width: 1170px;
+	margin:0 auto;
+	padding:0 var(--paddings2, 0);
+	display:none;
+	overflow-x:hidden; 
+}
+
+.kenzap .kpcae.autoPadding {
+	padding: calc(30px + (var(--paddings) - 30) * ((100vw - 300px) / (1600 - 300))) 0!important;
+}
+
+.kenzap .kpcae .kenzap-row {
+	margin:0 -15px;
+	overflow:hidden;
+ }
+ 
+.kenzap .kpcae .kenzap-container:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.kenzap .kpcae .owl-carousel .owl-item{
+	padding:4px 1px 8px;
+}
+
+.kenzap .kpcae{
+	padding:0;
+	background:#fff
+}
+
+.kenzap .kpcae .event-tabs{
+	border:none;
+	margin:0 0 70px;
+	padding:0 15px;
+}
+
+
+.kenzap .kpcae .event-tabs li:first-child a{
+	border-left:1px solid #f8f8f8
+}
+
+.kenzap .kpcae .event-tabs li a{
+	display:block;
+	padding:55px 0 30px;
+	width:100%;
+	font-size:40px;
+	line-height:inherit;
+	text-align:center;
+	display:inline-block;
+	color:#b3b3b3;
+	border:none;
+	background:#fdfdfd;
+	border-top:1px solid #f8f8f8;
+	border-right:1px solid #f8f8f8;
+	border-bottom:1px solid #f8f8f8;
+	border-radius:0;
+	margin:0;
+	text-transform:uppercase;
+	font-weight:200;
+	position:relative;
+	z-index:1;
+	transition:all .3s;
+	text-decoration: none;
+ }
+ 
+.kenzap .kpcae .event-tabs li a span{
+	display:block;
+	font-size:18px;
+	margin:35px 0 0;
+	font-weight:300;
+	color:#b3b3b3;
+}
+
+.kenzap .kpcae .event-tabs li.active a,
+.kenzap .kpcae .event-tabs li:hover a{
+	color:#373737;
+	background:#fff;
+	-webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+	z-index: 999999;
+	text-decoration: none;
+}
+
+.kenzap .kpcae .event-tabs li.active a span{
+	color:#373737
+}
+
+.kenzap .kpcae .event-tabs button.owl-prev{
+	width:22px;
+	height:29px;
+	background:url(images/calendar-events-arrow-left.svg) no-repeat center center;
+	background-size:auto 29px;
+	border:none;
+	position:absolute;
+	//left:-30px;
+	left:15px;
+	bottom:0;
+	top:0;
+	margin:auto;
+}
+
+.kenzap .kpcae .event-tabs button.owl-next{
+	width:22px;
+	height:29px;
+	background:url(images/calendar-events-arrow-right.svg) no-repeat center center;
+	background-size:auto 29px;
+	border:none;
+	position:absolute;
+	//right:-30px;
+	right:15px;
+	bottom:0;
+	top:0;
+	margin:auto;
+}
+
+.kenzap .kpcae .event-tabs .owl-next span,
+.kenzap .kpcae .event-tabs .owl-prev span{
+	display:none
+}
+
+.kenzap .kpcae .tab-content{
+	margin:0 15px;
+}
+
+.kenzap .kpcae .tab-content .tab-pane{
+	display:none
+}
+
+.kenzap .kpcae .tab-content img{
+	width:100%;
+	display:block
+}
+
+.kenzap .kpcae .tab-content ul{
+	display:flex;
+	display:-webkit-flex;
+	align-items:flex-start;
+	-webkit-align-items:flex-start;
+	flex-wrap:wrap;
+	-webkit-flex-wrap:wrap;
+}
+
+.kenzap .kpcae .tab-content ul li{
+	width:33.333333%;
+	position:relative;
+}
+
+.kenzap .kpcae .kenzap-md .tab-content ul li{
+	width:50%;
+}
+
+.kenzap .kpcae .kenzap-sm .tab-content ul li,
+.kenzap .kpcae .kenzap-xs .tab-content ul li{
+	width:100%;
+}
+
+.kenzap .kpcae .tab-content .date{
+	padding:15px;
+	background:rgba(36,36,36, 0.8);
+	position:absolute;
+	top:0;
+	left:20px;
+	text-align:center;
+	text-transform:uppercase;
+	color:#fff;
+	z-index:1;
+}
+
+.kenzap .kpcae .tab-content .date a{
+	color:#fff;
+	text-decoration: none;
+}
+
+.kenzap .kpcae .tab-content .date .day{
+	font-size:30px;
+	display:block;
+	font-weight:600;
+	margin:0 0 5px;
+}
+
+.kenzap .kpcae .tab-content .date .month{
+	font-size:10px;
+	display:block;
+	font-weight:500;
+	margin:0 0 5px;
+}
+
+.kenzap .kpcae .tab-content .date .year{
+	font-size:10px;
+	display:block;
+	font-weight:500;
+}
+
+.kenzap .kpcae .tab-content .info{
+	padding:50px 20px 25px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(253,253,253,0) 1%, rgba(28,28,28,1) 100%); 
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(253,253,253,0) 1%,rgba(28,28,28,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(253,253,253,0) 1%,rgba(28,28,28,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#1c1c1c',GradientType=0 )
+	
+}
+
+.kenzap .kpcae .tab-content .info p{
+	font-size:16px;
+	font-weight:600;
+	color:#fff;
+	width:60%;
+	float:left;
+	margin:0;
+}
+
+.kenzap .kpcae .tab-content .info p span{
+	display:block;
+	color:#b3b3b3;
+	font-size:11px;
+	font-weight:400;
+}
+
+.kenzap .kpcae .tab-content .info .get-ticket{
+	font-size: 12px;
+	line-height: 12px;
+	color:#fff;
+	padding:10px 25px;
+	background:var(--mc, #ff6600);;
+	text-transform:uppercase;
+	border:none;
+	border-radius:20px;
+	font-weight:700;
+	display:inline-block;
+	float:right;
+	text-align:center;
+	transition:all .3s;
+	text-decoration: none;
+}
+
+.kenzap .kpcae .tab-content .info .get-ticket:hover{
+	background:#fff;
+	color:var(--mc, #ff6600);;
+}
+
+@media only screen and (min-width: 62px) and (max-width: 75em) {
+	/* 992px and 1200px */
+	// .kenzap .kpcae{
+	// 	padding:70px 30px;
+	// }
+	
+	.kenzap .kpcae .tab-content ul li{
+		width:50%
+	}
+}
+
+
+@media screen and (max-width: 48em) {
+	/* width 768px */
+	
+	.kenzap .kpcae .tab-content ul li{
+		width:100%
+	}
+	
+	.kenzap .kpcae .tab-content .date{
+		padding:15px;
+	}
+	
+	.kenzap .kpcae .tab-content .date .day{
+		font-size:30px;
+	}
+	
+	.kenzap .kpcae .tab-content .info{
+		padding: 50px 20px 25px;	
+	}
+	
+	.kenzap .kpcae .tab-content .info p{
+		font-size:16px;
+		width:auto;
+	}
+	
+	.kenzap .kpcae .tab-content .info .get-ticket{
+		font-size: 12px;
+		padding:10px 15px;
+		width:auto;
+		float:right;
+	}
+
+}
+
+@media screen and (max-width: 30em) {
+	/* width 480px */
+	
+	.kenzap .kpcae .tab-content .date .day{
+		font-size:20px;
+	}
+	
+	.kenzap .kpcae .tab-content .date{
+		padding:10px;
+	}
+	
+	.kenzap .kpcae .tab-content .info .get-ticket{
+		font-size: 10px;
+		padding: 5px 10px;
+		float:none;
+	}
+	
+	.kenzap .kpcae .tab-content .info p{
+		font-size:12px;
+		margin:0 0 5px;
+		width:100%;
+	}
+}
