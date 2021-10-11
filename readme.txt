@@ -192,4 +192,3 @@ Update: improved UI for checkout fields in cart
 Update: Frontend console layout crash fix for MyTicket Hall layout.
 Update: Individual ticket status logics updates. Now by default unpaid ticket are not valid.
 New: Now it is possible to set up custom logics for app statuses.
-
