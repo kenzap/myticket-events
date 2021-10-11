@@ -1,0 +1,960 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MyTicket Events\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-26 09:19+0000\n"
+"PO-Revision-Date: 2020-12-17 12:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: Catalan\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.6; wp-5.6"
+
+#: inc/class-woocommerce.php:214
+msgid "*Update cart after changes"
+msgstr "*Actualitzar la cistella després dels canvis"
+
+#: inc/class-myticket-events.php:466
+msgid "1 Day"
+msgstr "1 Dia"
+
+#: inc/class-myticket-events.php:475
+msgid "10 Days"
+msgstr "10 dies"
+
+#: inc/class-myticket-events.php:467
+msgid "2 Days"
+msgstr "2 Dies de descans"
+
+#: inc/class-myticket-events.php:468
+msgid "3 Days"
+msgstr "1.3 Els dies següents"
+
+#: inc/class-myticket-events.php:469
+msgid "4 Days"
+msgstr "4 Dies"
+
+#: inc/class-myticket-events.php:470
+msgid "5 Days"
+msgstr "5 dies"
+
+#: inc/class-myticket-events.php:471
+msgid "6 Days"
+msgstr "6 Dies"
+
+#: inc/class-myticket-events.php:472
+msgid "7 Days"
+msgstr "7 Dies"
+
+#: inc/class-myticket-events.php:473
+msgid "8 Days"
+msgstr "8 Dies"
+
+#: inc/class-myticket-events.php:474
+msgid "9 Days"
+msgstr "9 dies"
+
+#: inc/class-customizer.php:109
+msgid "Add general ticket download button with MyTicket checkout style."
+msgstr ""
+"Afegiu el botó general de baixada d'entrades amb l'estil de compra de "
+"MyTicket."
+
+#: templates/email-individual/index.php:21
+msgid "Address:"
+msgstr "Adreça:"
+
+#: src/listing-01/block.php:238 src/listing-01/block.php:265
+msgid "All"
+msgstr "Tots els"
+
+#: src/listing-04/block.php:91 src/listing-01/block.php:96
+msgid "All Dates"
+msgstr "Totes les dates"
+
+#: src/listing-04/block.php:49 src/listing-04/block.php:71
+#: src/listing-01/block.php:55 src/listing-01/block.php:76
+msgid "All Locations"
+msgstr "Totes les ubicacions"
+
+#: inc/class-plugins.php:123
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tots els connectors s'han instal·lat i activat correctament. %1$s"
+
+#: inc/class-customizer.php:149
+msgid "Allow users to pick specific attendance day in cart calendar."
+msgstr ""
+"Permet als usuaris triar el dia d'assistència específic en el calendari de "
+"la cistella."
+
+#: inc/class-myticket-events.php:459
+msgid ""
+"Allow users to pick specific attendance day in cart calendar. Go to "
+"Customizer > MyTicket > Checkout > Enable Calendar"
+msgstr ""
+"Permet als usuaris triar el dia d'assistència específic en el calendari de "
+"la cistella. Aneu a Personalitzador > myticket > de > habilita el calendari"
+
+#: inc/class-customizer.php:172
+msgid "Allowed app IDs"
+msgstr "ID d'aplicació permesos"
+
+#: src/listing-01/block.php:184
+msgid "Alphabetically"
+msgstr "Alfabèticament"
+
+#: inc/class-customizer.php:56
+msgid ""
+"Attach general ticket in PDF format to WooCommerce emails. Go to WooCommerce "
+"> Settings > Emails to adjust email trigger settings. To override this "
+"ticket template go to your theme folder and find /myticket-events/general-"
+"ticket/ folder."
+msgstr ""
+"Adjuntar bitllet general en format PDF als correus electrònics de "
+"WooCommerce. Aneu a Configuració de l'> WooCommerce > per ajustar la "
+"configuració de l'activador de correu electrònic. Per substituir aquesta "
+"plantilla d'entrada aneu a la vostra carpeta temàtica i cerqueu /myticket-"
+"events/general-ticket/ carpeta."
+
+#: inc/class-customizer.php:95
+msgid ""
+"Attach tickets to emails after payment received. (Works only with "
+"\"Participant Data\" feature enabled under MyTicket > Ticketing section of "
+"customizer. Works in parallel with WooCommerce emails. To override this "
+"ticket template go to your theme folder and find /myticket-events/individual-"
+"ticket/ folder.)"
+msgstr ""
+"Adjuntar entrades als correus electrònics després del pagament rebut. "
+"(Funciona només amb la funció \"Dades del participant\" habilitada a la "
+"secció > de MyTicket ticketing del personalitzador. Funciona en paral·lel "
+"amb correus electrònics de WooCommerce. Per substituir aquesta plantilla "
+"d'entrades aneu a la vostra carpeta temàtica i cerqueu /myticket-"
+"events/individual-ticket/ carpeta.)"
+
+#: inc/class-customizer.php:82
+msgid ""
+"Attach tickets to emails when order status changes to Completed. (Works only "
+"with \"Participant Data\" feature enabled under MyTicket > Ticketing section "
+"of customizer. Works in parallel with WooCommerce emails. To override this "
+"ticket template go to your theme folder and find /myticket-events/individual-"
+"ticket/ folder.)"
+msgstr ""
+"Adjuntar entrades als correus electrònics quan es canviï l'estat de la "
+"comanda. (Funciona només amb la funció \"Dades del participant\" habilitada "
+"a la secció > de MyTicket ticketing del personalitzador. Funciona en "
+"paral·lel amb correus electrònics de WooCommerce. Per substituir aquesta "
+"plantilla d'entrades aneu a la vostra carpeta temàtica i cerqueu /myticket-"
+"events/individual-ticket/ carpeta.)"
+
+#: inc/class-customizer.php:69
+msgid ""
+"Attach tickets to new orders. (Works only with \"Participant Data\" feature "
+"enabled under MyTicket > Ticketing section of customizer. Works in parallel "
+"with WooCommerce emails. To override this ticket template go to your theme "
+"folder and find /myticket-events/individual-ticket/ folder.)"
+msgstr ""
+"Adjuntar entrades a noves comandes. (Funciona només amb la funció \"Dades "
+"del participant\" habilitada a la secció > de MyTicket ticketing del "
+"personalitzador. Funciona en paral·lel amb correus electrònics de "
+"WooCommerce. Per substituir aquesta plantilla d'entrades aneu a la vostra "
+"carpeta temàtica i cerqueu /myticket-events/individual-ticket/ carpeta.)"
+
+#: src/listing-05/block.php:85
+msgid "Available"
+msgstr "Disponible"
+
+#: inc/class-plugins.php:113
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Comença a activar el connector"
+msgstr[1] "Comença a activar els connectors"
+
+#: inc/class-plugins.php:103
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Comença a instal·lar el connector"
+msgstr[1] "Comença a instal·lar connectors"
+
+#: inc/class-plugins.php:108
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Comença a actualitzar el connector"
+msgstr[1] "Comença a actualitzar els connectors"
+
+#: templates/ticket-general/index.php:68
+#, php-format
+msgid "Billing Address: %s"
+msgstr "Adreça de facturació: %s"
+
+#: src/listing-05/block.php:36 src/listing-02/block.php:17
+#: src/listing-03/block.php:22 src/listing-04/block.php:17
+#: src/listing-01/block.php:27
+msgid "block preview"
+msgstr "vista prèvia de blocs"
+
+#: src/listing-02/block.php:31 src/listing-01/block-ajax.php:54
+msgid "Book Ticket"
+msgstr "Bitllet de reserva"
+
+#: inc/class-woocommerce.php:511
+msgid "button below"
+msgstr "botó de sota"
+
+#: inc/class-customizer.php:42
+msgid "Checkout"
+msgstr "Checkout"
+
+#: inc/class-woocommerce.php:207
+msgid "Choose Days"
+msgstr "Tria dies"
+
+#: src/listing-01/block.php:183
+msgid "Closest"
+msgstr "Més a prop"
+
+#: inc/class-customizer.php:119
+msgid "Combine tickets"
+msgstr "Combinar entrades"
+
+#: src/listing-05/block.php:52
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. Description of the plugin
+msgid ""
+"Create event listings, organize events, link events with WooCommerce orders, "
+"print PDF invoices."
+msgstr ""
+"Creeu anuncis d'esdeveniments, organitzeu esdeveniments, enllaceu "
+"esdeveniments amb comandes wooCommerce, imprimiu factures PDF."
+
+#: inc/class-myticket-events.php:501
+msgid "Custom Link"
+msgstr "Enllaç personalitzat"
+
+#: inc/class-woocommerce.php:217
+msgid "Date"
+msgstr "Data"
+
+#: templates/ticket-general/index.php:105
+#: templates/ticket-general/index.php:230
+msgid "Date:"
+msgstr "Data:"
+
+#: src/listing-01/block.php:182
+msgid "Default"
+msgstr "Omissió"
+
+#: inc/class-woocommerce.php:511
+msgid "Download"
+msgstr "Descarregar"
+
+#: inc/class-woocommerce.php:508
+msgid "Download image"
+msgstr "Descarregar imatge"
+
+#: inc/class-woocommerce.php:531
+msgid "Download ticket"
+msgstr "Descarregar entrada"
+
+#: inc/class-woocommerce.php:513
+msgid "Download Your Ticket"
+msgstr "Descarrega't la teva entrada"
+
+#: inc/class-customizer.php:33
+msgid "Emails"
+msgstr "Correus electrònics"
+
+#: inc/class-customizer.php:146
+msgid "Enable calendar"
+msgstr "Habilita el calendari"
+
+#: inc/class-myticket-events.php:444
+msgid "Event Begins"
+msgstr "Comença l'esdeveniment"
+
+#: inc/class-myticket-events.php:451
+msgid "Event Ends"
+msgstr "Finalitza l'esdeveniment"
+
+#: inc/class-myticket-events.php:458
+msgid "Event Length"
+msgstr "Longitud de l'esdeveniment"
+
+#: src/listing-04/block.php:89 src/listing-01/block.php:94
+msgid "Event Month"
+msgstr "Mes de l'esdeveniment"
+
+#: templates/ticket-general/index.php:189
+msgid "Event:"
+msgstr "Esdeveniment:"
+
+#: inc/class-woocommerce.php:361
+#, php-format
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Expired <span class=\"count\">(%s)</span>"
+msgstr[0] "Caducat <span class=\"count\">(%s)</span>"
+msgstr[1] "Caducat <span class=\"count\">(%s)</span>"
+
+#: src/listing-05/block-ajax.php:141 src/listing-02/block.php:163
+#: src/listing-04/block-ajax.php:142 src/listing-06/block-ajax.php:45
+msgid "Get Ticket"
+msgstr "Obtenir bitllet"
+
+#: src/listing-01/block.php:188
+msgid "Highest Price"
+msgstr "Preu més alt"
+
+#. URI of the plugin
+msgid "https://github.com/kenzap/myticket-events-gutenberg-blocks"
+msgstr "https://github.com/kenzap/myticket-events-gutenberg-blocks"
+
+#. Author URI of the plugin
+msgid "https://kenzap.com/"
+msgstr "https://kenzap.com/"
+
+#: src/listing-05/block.php:41 src/listing-03/block.php:27
+#: src/listing-04/block.php:22
+msgid ""
+"Important! Please make sure that WooCommerce and CMB2 plugins are installed "
+"and activated."
+msgstr ""
+"Important! Assegureu-vos que els connectors WooCommerce i CMB2 estiguin "
+"instal·lats i activats."
+
+#: inc/class-plugins.php:55
+msgid "Install Plugins"
+msgstr "Instal·la els connectors"
+
+#: inc/class-plugins.php:54
+msgid "Install Required Plugins"
+msgstr "Instal·la els connectors necessaris"
+
+#: inc/class-plugins.php:56
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "S'està instal·lant el connector: %s"
+
+#. Author of the plugin
+msgid "Kenzap"
+msgstr "Preu mitjà per nit"
+
+#: src/listing-06/block-ajax.php:119
+msgid "Limited"
+msgstr "Limitat"
+
+#: src/listing-04/block.php:47 src/listing-04/block.php:69
+#: src/listing-01/block.php:53 src/listing-01/block.php:74
+msgid "Location"
+msgstr "Ubicació"
+
+#: inc/class-myticket-events.php:487
+msgid "Location Address"
+msgstr "Adreça d'ubicació"
+
+#: inc/class-myticket-events.php:488
+msgid ""
+"Location address is used for visual representation. Map searches are only "
+"performed based on location coordinates that can be provided below."
+msgstr ""
+"L'adreça d'ubicació s'utilitza per a la representació visual. Les cerques de "
+"mapes només es realitzen en funció de les coordenades d'ubicació que es "
+"poden proporcionar a continuació."
+
+#: inc/class-myticket-events.php:494
+msgid "Location Coordinates"
+msgstr "Coordenades d'ubicació"
+
+#: inc/class-myticket-events.php:495
+#, fuzzy
+#| msgid ""
+#| "Location latitude and longitude separated by comma. Ex.: 124.34343, -23."
+#| "3423"
+msgid ""
+"Location latitude and longitude separated by comma. Ex.: 124.34343, -23.3423."
+msgstr ""
+"Latitud d'ubicació i longitud separades per coma. Ex.: 124.34343, -23.3423"
+
+#: inc/class-myticket-events.php:480
+msgid "Location Title"
+msgstr "Títol de la ubicació"
+
+#: inc/class-myticket-events.php:481
+#, fuzzy
+#| msgid "Location title/Venue is used for visual representation only. "
+msgid "Location title/Venue is used for visual representation only."
+msgstr ""
+"El títol/lloc de localització només s'utilitza per a la representació visual."
+" "
+
+#: src/listing-01/block.php:187
+msgid "Lowest Price"
+msgstr "Preu més baix"
+
+#: inc/class-customizer.php:15
+msgid "Mobile App"
+msgstr "Aplicació mòbil"
+
+#: inc/class-customizer.php:6
+msgid "MyTicket"
+msgstr "Preuo o poc"
+
+#: inc/class-customizer.php:106
+msgid "MyTicket checkout"
+msgstr "MyTicket de compra"
+
+#. Name of the plugin
+msgid "MyTicket Events"
+msgstr "Esdeveniments MyTicket"
+
+#: inc/class-myticket-events.php:436
+msgid "MyTicket Extra Details"
+msgstr "MyTicket Detalls addicionals"
+
+#: src/listing-01/block-ajax.php:132 src/listing-01/block.php:308
+msgid "Next"
+msgstr "Següent"
+
+#: inc/class-plugins.php:121
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "No s'ha pres cap acció. El connector % 1$ s ja estava actiu."
+
+#: src/listing-06/block-ajax.php:139
+msgid "No records to display. Go to Products > Add New."
+msgstr ""
+"No hi ha registres per visualitzar. Aneu a Productes > Afegeix-ne de nou."
+
+#: src/listing-05/block.php:47 src/listing-06/block-ajax.php:20
+msgid "Not allowed to add more tickets"
+msgstr "No es permet afegir més entrades"
+
+#: inc/class-woocommerce.php:697 inc/class-woocommerce.php:707
+msgid "Not Valid"
+msgstr "No és vàlid"
+
+#: src/listing-02/block.php:19 src/listing-03/block.php:25
+#: src/listing-04/block.php:20 src/listing-01/block.php:29
+msgid ""
+"Note: Adjust listing settings from the right pane; Click Update to preview "
+"changes on your website frontend. To add events go to Products > Add New "
+"section and populate fields including MyTicket Extra Details box."
+msgstr ""
+"Nota: ajusteu la configuració de la llista des del panell dret; Feu clic a "
+"Actualitza per obtenir una visualització prèvia dels canvis a la interfície "
+"del lloc web. Per afegir esdeveniments, aneu a Productes > afegir nous camps "
+"de secció i emplenar, com ara el quadre Detalls addicionals de MyTicket."
+
+#: src/listing-05/block.php:39
+msgid ""
+"Note: Image above is for representation purpose only. Click Update to "
+"preview changes on your website frontend. To create new layout please visit "
+"this page: https://kenzap.com/myticket/. Generate the layout and then paste "
+"it into Layout > Seat Code section on the right."
+msgstr ""
+"Nota: La imatge anterior és només per a propòsits de representació. Feu clic "
+"a Actualitza per obtenir una visualització prèvia dels canvis a la "
+"interfície del lloc web. Per crear un disseny nou, visiteu aquesta pàgina: "
+"https://kenzap.com/myticket/. Genera la disposició i enganxa-la a la secció >"
+" codi de seient de la dreta."
+
+#: src/listing-01/block.php:177
+msgid "of"
+msgstr "De"
+
+#: src/listing-05/block.php:47 src/listing-06/block-ajax.php:20
+msgid "Oops. Some seats were already booked. Please try again!"
+msgstr "Ui. Alguns seients ja estaven reservats. Torneu-ho a provar!"
+
+#: src/listing-05/block.php:47 src/listing-03/block.php:56
+#: src/listing-06/block-ajax.php:20
+msgid "Oops. Something went wrong. Please try again later."
+msgstr "Ui. Alguna cosa ha anat malament. Torneu-ho a provar més tard."
+
+#: inc/class-customizer.php:175
+msgid ""
+"Open MyTicket app > Settings > Scroll down to find its unique ID number and "
+"provide it below. Specify only one ID per line. Ex.: E4RR5R6R."
+msgstr ""
+"Obriu l'aplicació MyTicket > Configuració > desplaceu-vos cap avall per "
+"trobar el seu número d'identificació únic i proporcionar-lo a continuació. "
+"Especifiqueu només un ID per línia. Ex.: E4RR5R6R."
+
+#: inc/class-woocommerce.php:527
+msgid "Or download each ticket individually"
+msgstr "O descarrega't cada entrada de forma individual"
+
+#: templates/ticket-general/index.php:62
+#, php-format
+msgid "Order Date: %s"
+msgstr "Data de comanda: %s"
+
+#: templates/ticket-general/index.php:64
+#, php-format
+msgid "Order Number: %s"
+msgstr "Número de comanda: %s"
+
+#: inc/class-myticket-events.php:502
+msgid "Override default woocommerce product permalink."
+msgstr "Substitueix el permalink de producte woocommerce predeterminat."
+
+#: inc/class-customizer.php:133
+msgid "Participant data"
+msgstr "Dades dels participants"
+
+#: inc/class-customizer.php:66
+msgid "Participant PDF Ticket (New Order)"
+msgstr "Entrada PDF participant (Nova Comanda)"
+
+#: inc/class-customizer.php:92
+msgid "Participant PDF Ticket (Payment Received)"
+msgstr "Entrada PDF partícip (Pagament rebut)"
+
+#: inc/class-customizer.php:79
+msgid "Participant PDF Ticket (Status Completed)"
+msgstr "Entrada PDF participant (Estat completat)"
+
+#: templates/ticket-general/index.php:66
+#, php-format
+msgid "Payment Method: %s"
+msgstr "Forma de pagament: %s"
+
+#: inc/class-myticket-events.php:116
+msgid "PDF"
+msgstr "Pdf"
+
+#: inc/class-myticket-events.php:122 inc/class-customizer.php:53
+msgid "PDF Ticket"
+msgstr "Entrada PDF"
+
+#: src/listing-05/block.php:47 src/listing-06/block-ajax.php:20
+msgid "per seat"
+msgstr "per seient"
+
+#: src/listing-05/block-ajax.php:3 src/listing-02/block.php:24
+#: src/listing-03/block.php:47 src/listing-04/block-ajax.php:3
+#: src/listing-01/block-ajax.php:3 src/listing-06/block-ajax.php:3
+msgid "Please activate WooCommerce plugin"
+msgstr "Si us plau, activeu el connector WooCommerce"
+
+#: inc/class-woocommerce.php:214
+msgid "Please click on update button first!"
+msgstr "Si us plau, feu clic al botó d'actualització primer!"
+
+#: inc/class-woocommerce.php:214
+msgid "Please enter name and email correctly!"
+msgstr "Introduïu el nom i el correu electrònic correctament!"
+
+#: inc/class-myticket-events.php:98
+msgid ""
+"Please make sure <strong>../wp-content/uploads/tickets</strong> folder "
+"exists and has writing permissions. Required to create and store PDF tickets."
+msgstr ""
+"Assegureu-vos <strong>.. /wp-content/uploads/tickets</strong> carpeta "
+"existeix i té permisos d'escriptura. Necessari per crear i emmagatzemar "
+"entrades PDF."
+
+#: inc/class-woocommerce.php:214
+msgid "Please pick up the date first!"
+msgstr "Si us plau, recollir la data en primer lloc!"
+
+#: templates/email-individual/index.php:24
+msgid "Please use the QR-code below to enter the event."
+msgstr "Si us plau, utilitzeu el codi QR següent per introduir l'esdeveniment."
+
+#: inc/class-plugins.php:119
+msgid "Plugin activated successfully."
+msgstr "El connector s' ha activat correctament."
+
+#: inc/class-plugins.php:122
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"El connector no està activat. Es necessita una versió més alta de %s per a "
+"aquest tema. Actualitzeu el connector."
+
+#: src/listing-01/block.php:185
+msgid "Popularity"
+msgstr "Popularitat"
+
+#: src/listing-01/block-ajax.php:126
+msgid "Prev"
+msgstr "Anterior"
+
+#: src/listing-01/block.php:307
+msgid "Previous"
+msgstr "Anterior"
+
+#: templates/ticket-general/index.php:87 templates/ticket-general/index.php:217
+#: src/listing-05/block.php:100
+msgid "Price"
+msgstr "Preu"
+
+#: src/listing-01/block-ajax.php:45
+msgid "Price From"
+msgstr "Preu des de"
+
+#: inc/class-customizer.php:159
+msgid "Private access"
+msgstr "Accés privat"
+
+#: templates/ticket-general/index.php:83 templates/ticket-general/index.php:213
+msgid "Qty"
+msgstr "Preuenyat"
+
+#: src/listing-01/block.php:186
+msgid "Rating"
+msgstr "Qualificació"
+
+#: src/listing-04/block.php:39 src/listing-01/block.php:45
+msgid "Remove search text"
+msgstr "Suprimeix el text de cerca"
+
+#: inc/class-customizer.php:162
+msgid "Restrict access to apps with IDs listed below."
+msgstr ""
+"Restringeix l'accés a les aplicacions amb els ID que s'enumeren a "
+"continuació."
+
+#: src/listing-01/block.php:177
+msgid "Results"
+msgstr "Resultats"
+
+#: inc/class-plugins.php:118
+msgid "Return to Required Plugins Installer"
+msgstr "Torna a l'instal·lador de connectors necessari"
+
+#: inc/class-woocommerce.php:239 src/listing-05/block.php:99
+msgid "Row"
+msgstr "Fila"
+
+#: templates/ticket-general/index.php:111
+#: templates/ticket-general/index.php:236 src/listing-05/block.php:47
+#: src/listing-06/block-ajax.php:20
+msgid "Row:"
+msgstr "Fila:"
+
+#: src/listing-01/block-ajax.php:18
+msgid "Sale"
+msgstr "Venda"
+
+#: src/listing-04/block.php:38 src/listing-04/block.php:137
+#: src/listing-01/block.php:44 src/listing-01/block.php:142
+msgid "Search"
+msgstr "Cerca"
+
+#: src/listing-04/block.php:37 src/listing-01/block.php:43
+msgid "Search Keyword"
+msgstr "Paraula clau de cerca"
+
+#: src/listing-01/block.php:176
+msgid "Search results for"
+msgstr "Resultats de la cerca per a"
+
+#: inc/class-woocommerce.php:232 src/listing-05/block.php:98
+msgid "Seat"
+msgstr "Seient"
+
+#: templates/ticket-general/index.php:110
+#: templates/ticket-general/index.php:235
+msgid "Seat:"
+msgstr "Seient:"
+
+#: src/listing-06/block-ajax.php:119
+msgid "seats left!"
+msgstr "queden seients!"
+
+#: inc/class-woocommerce.php:246
+msgid "Sector"
+msgstr "Sector"
+
+#: inc/class-myticket-events.php:445 inc/class-myticket-events.php:452
+#, fuzzy
+#| msgid "Select event date time and zone"
+msgid "Select event date time and zone."
+msgstr "Seleccioneu l'hora i la zona de data de l'esdeveniment"
+
+#: src/listing-05/block.php:87
+msgid "Selected"
+msgstr "Seleccionat"
+
+#: src/listing-05/block.php:53
+msgid "Selected Seats"
+msgstr "Seients seleccionats"
+
+#: inc/class-customizer.php:43
+msgid "Set up checkout settings and views"
+msgstr "Configurar la configuració i les visualitzacions de compra"
+
+#: inc/class-customizer.php:25
+msgid "Set up general rules for ticketing operations"
+msgstr "Establir normes generals per a les operacions de venda d'entrades"
+
+#: inc/class-customizer.php:34
+msgid "Set up rules for Email triggering"
+msgstr "Configurar regles per activar el correu electrònic"
+
+#: inc/class-customizer.php:16
+msgid "Set up rules for MyTicket scanner app"
+msgstr "Configurar regles per a l'aplicació de l'escàner MyTicket"
+
+#: src/listing-01/block.php:177
+msgid "Showing"
+msgstr "Mostrant"
+
+#: src/listing-01/block.php:176
+msgid "Showing all records"
+msgstr "Mostrant tots els registres"
+
+#: src/listing-05/block-ajax.php:142 src/listing-05/block.php:86
+#: src/listing-02/block.php:32 src/listing-02/block.php:164
+#: src/listing-04/block-ajax.php:143 src/listing-01/block-ajax.php:55
+#: src/listing-06/block-ajax.php:46
+msgid "Sold Out"
+msgstr "Entrades exhaurides"
+
+#: inc/class-plugins.php:57
+msgid "Something went wrong with the plugin API."
+msgstr "Alguna cosa ha anat malament amb l' API del connector."
+
+#: inc/class-plugins.php:98
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+"Ho sentim, però no teniu els permisos correctes per activar el connector "
+"%1$s."
+msgstr[1] ""
+"Ho sentim, però no teniu els permisos correctes per activar els connectors "
+"%1$s."
+
+#: inc/class-plugins.php:68
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+"Ho sentim, però no teniu els permisos correctes per instal·lar el connector "
+"%1$s."
+msgstr[1] ""
+"Ho sentim, però no teniu els permisos correctes per instal·lar els "
+"connectors %1$s."
+
+#: inc/class-plugins.php:83
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+"Ho sentim, però no teniu els permisos correctes per actualitzar el connector "
+"%1$s."
+msgstr[1] ""
+"Ho sentim, però no teniu els permisos correctes per actualitzar els "
+"connectors %1$s."
+
+#: src/listing-01/block.php:180
+msgid "Sort By:"
+msgstr "Ordena per:"
+
+#: inc/class-woocommerce.php:509
+msgid "Thanks for purchasing"
+msgstr "Gràcies per comprar"
+
+#: inc/class-plugins.php:73
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"El connector següent s' ha d' actualitzar a la seva última versió per a "
+"garantir la màxima compatibilitat amb aquest tema:% 1$s."
+msgstr[1] ""
+"Els connectors següents s' han d' actualitzar a la seva última versió per a "
+"garantir la màxima compatibilitat amb aquest tema:% 1$s."
+
+#: inc/class-plugins.php:120
+msgid "The following plugin was activated successfully:"
+msgstr "El connector següent s'ha activat correctament:"
+
+#: inc/class-plugins.php:93
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "El següent connector recomanat està inactiu actualment:% 1$s."
+msgstr[1] "Els següents connectors recomanats estan inactius actualment:% 1$s."
+
+#: inc/class-plugins.php:88
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "El connector necessari següent està inactiu:% 1$s."
+msgstr[1] "Actualment hi ha inactius els connectors necessaris següents:% 1$s."
+
+#: inc/class-plugins.php:78
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Hi ha una actualització disponible per a:% 1$s."
+msgstr[1] ""
+"Hi ha actualitzacions disponibles per als connectors següents:% 1$s."
+
+#: inc/class-plugins.php:63
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Aquest tema recomana el següent connector:% 1$s."
+msgstr[1] "Aquest tema recomana els següents connectors:% 1$s."
+
+#: inc/class-plugins.php:58
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Aquest tema requereix el connector següent:% 1$s."
+msgstr[1] "Aquest tema requereix els connectors següents:% 1$s."
+
+#: inc/class-myticket-events.php:36 templates/ticket-general/index.php:79
+#: templates/ticket-general/index.php:209
+msgid "Ticket"
+msgstr "Bitllet"
+
+#: inc/class-woocommerce.php:509
+msgid "ticket"
+msgstr "Bitllet"
+
+#: templates/email-individual/index.php:19
+msgid "Ticket for:"
+msgstr "Entrada per a:"
+
+#: inc/class-woocommerce.php:197
+msgid "Ticket Holder Email"
+msgstr "Correu electrònic del titular de l'entrada"
+
+#: inc/class-woocommerce.php:196
+msgid "Ticket Holder Name"
+msgstr "Nom del portador de l'entrada"
+
+#: templates/email-individual/index.php:23
+msgid "Ticket Holder: "
+msgstr "Posseïdor d'entrades: "
+
+#: templates/ticket-general/index.php:61 templates/ticket-general/index.php:186
+msgid "Ticket ID:"
+msgstr "ID de l'entrada:"
+
+#: inc/class-customizer.php:24
+msgid "Ticketing"
+msgstr "Ticketing"
+
+#: inc/class-woocommerce.php:218 src/listing-01/block-ajax.php:39
+msgid "Time"
+msgstr "Hora"
+
+#: templates/ticket-general/index.php:106
+#: templates/ticket-general/index.php:193
+#: templates/ticket-general/index.php:231
+msgid "Time:"
+msgstr "Hora:"
+
+#: templates/email-individual/index.php:22
+msgid "Time: "
+msgstr "Hora: "
+
+#: inc/class-myticket-events.php:465
+msgid "Undefined"
+msgstr "Indefinit"
+
+#: inc/class-woocommerce.php:654
+msgid "Unvalidate"
+msgstr "No s'ha de capiar"
+
+#: inc/class-customizer.php:122
+msgid ""
+"Upon cart and checkout combine events into a single record if quantity is "
+"more than 1 ticket. By enabling this option you will also have only one "
+"invoice per order with no option to split qr-code generated invoices for "
+"each attendee."
+msgstr ""
+"Al carretó i a la caixa es combinen esdeveniments en un sol registre si la "
+"quantitat és superior a 1 entrada. En habilitar aquesta opció també tindràs "
+"només una factura per comanda sense opció de dividir les factures generades "
+"amb codi QR per a cada assistent."
+
+#: inc/class-customizer.php:136
+msgid ""
+"Upon cart page force users to enter ticket holder email and full name to use "
+"it for QR-code scanning."
+msgstr ""
+"A la pàgina del carretó obliguen els usuaris a introduir el correu "
+"electrònic del portador i el nom complet per utilitzar-lo per a l'escaneig "
+"de codis QR."
+
+#: inc/class-woocommerce.php:636
+msgid "Validate"
+msgstr "Validar"
+
+#: inc/class-woocommerce.php:352
+#, php-format
+msgid "Validated <span class=\"count\">(%s)</span>"
+msgid_plural "Validated <span class=\"count\">(%s)</span>"
+msgstr[0] "Validat <span class=\"count\">(%s)</span>"
+msgstr[1] "Validat <span class=\"count\">(%s)</span>"
+
+#: inc/class-woocommerce.php:226 src/listing-01/block-ajax.php:31
+msgid "Venue"
+msgstr "Lloc"
+
+#: templates/email-individual/index.php:20
+#: templates/ticket-general/index.php:107
+#: templates/ticket-general/index.php:191
+#: templates/ticket-general/index.php:232
+msgid "Venue:"
+msgstr "Lloc:"
+
+#: inc/class-myticket-events.php:46 inc/class-myticket-events.php:130
+msgid "View"
+msgstr "Mostra"
+
+#: src/listing-05/block-ajax.php:143 src/listing-02/block.php:33
+#: src/listing-02/block.php:165 src/listing-04/block-ajax.php:144
+#: src/listing-01/block-ajax.php:56 src/listing-06/block-ajax.php:47
+msgid "View More"
+msgstr "Veure més"
+
+#: inc/class-woocommerce.php:511
+msgid "You can directly download ticket by clicking"
+msgstr "Pots descarregar directament l'entrada fent clic a"
+
+#: src/listing-05/block.php:47 src/listing-06/block-ajax.php:20
+msgid "Zone"
+msgstr "Zona"
+
+#: inc/class-woocommerce.php:635
+msgid "• click to update status"
+msgstr "• feu clic per actualitzar l'estat"
+
+#: inc/class-woocommerce.php:706
+msgid "• not valid, wrong date (expired)"
+msgstr "• no vàlid, data incorrecta (caducat)"
+
+#: inc/class-woocommerce.php:696
+msgid "• not valid, wrong date (too early)"
+msgstr "• no vàlid, data incorrecta (massa d'hora)"

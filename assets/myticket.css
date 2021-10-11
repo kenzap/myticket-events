@@ -1,0 +1,120 @@
+.kenzap .kenzap-download-ticket img,
+.kenzap .kenzap-download-ticket ul,
+.kenzap .kenzap-download-ticket li,
+.kenzap .kenzap-download-ticket p,
+.kenzap .kenzap-download-ticket a{
+	padding: 0;
+	margin: 0;
+	box-shadow: none;
+	border: none;
+	text-decoration: none;
+	list-style:none
+}
+
+.kenzap .kenzap-download-ticket .clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.kenzap .kenzap-download-ticket .kenzap-container {
+    max-width: 1170px;
+	margin:0 auto;
+	padding:0 15px;
+}
+
+.kenzap .kenzap-download-ticket .kenzap-container:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.kenzap .kenzap-download-ticket{
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align:center;
+	padding:50px 0 0;
+}
+
+.kenzap .kenzap-download-ticket img{
+	display:block;
+	margin:0 auto 120px;
+}
+
+.kenzap .kenzap-download-ticket p{
+	color:#373737;
+	font-size:20px;
+	line-height:25px;
+	display:block;
+	margin:0 0 20px;
+	font-weight:500;
+}
+
+.kenzap .kenzap-download-ticket p strong{
+	font-weight:600;
+	color:#ff6600;
+}
+
+.kenzap .kenzap-download-ticket p span{
+	font-weight:600;
+	color:#ff6600
+}
+
+.kenzap .kenzap-download-ticket a{
+	max-width:300px;
+	margin:30px auto 0;
+	display:block;
+	font-size: 16px;
+	color: #fff;
+	border: 1px solid #ff6600;
+	background: #ff6600;
+	border-radius: 50px;
+	text-align: center;
+	padding: 20px;
+	font-weight:500;
+	text-transform: uppercase;
+	transition:all .3s
+}
+
+.kenzap .kenzap-download-ticket a:hover{
+	color: #ff6600;
+	background: #fff;
+	border-width:1px; 
+}
+
+.kenzap.kp_thankyou .woocommerce-order-overview,
+.kenzap.kp_thankyou .woocommerce-order-downloads,
+.kenzap.kp_thankyou .woocommerce-order-details,
+.kenzap.kp_thankyou .woocommerce-customer-details,
+.kenzap.kp_thankyou .woocommerce-thankyou-order-received{
+	display: none;
+}
+
+.kenzap .woocommerce .cal2{
+
+}
+
+.kenzap .woocommerce .cal2 img{
+	position:absolute;
+	height:18px;
+	width:18px;
+	z-index:1;
+	margin-top:14px;
+	margin-left:8px;
+}
+
+.kenzap .woocommerce .cal2 input{
+	padding-left:32px;
+	min-height: 46px;
+}
+
+.kenzap .woocommerce .cfield textarea:focus, .kenzap .woocommerce .cfield input:focus{
+	margin-top:8px;
+	outline: none;
+}
